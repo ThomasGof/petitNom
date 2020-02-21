@@ -2,49 +2,161 @@
     margin: 0px;
     padding: 0px;
 }
-h1{
-    font-size: 40px;
-}
-h2{
-    font-size: 20px;
-}
-ul{
-    margin-top: 10px;
-    list-style-type: none;
-    display: flex;
-    justify-content: center;
-    margin-bottom: 80px;
-}
-a{
-    margin-left: 10px;
-    background-color: goldenrod;
-    text-decoration: none;
-    color: black;
-}
-header{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin-top: 10px;
-    text-align: center;
-    height: 100px;
-    line-height: 50px;
-    border-top: solid goldenrod 5px;
-    border-bottom: solid goldenrod 5px;
-}
-#blanc{
+#bienvenue{
+    height: 600px;
+    background-size: cover;
+    background-position: center;
     color: white;
 }
-footer{
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+#menu{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    position: absolute;
+    margin-top: 50px;
+}
+#menu_button{
+    margin-top: 20px;
+    margin-right: 1.5em;
+    float: right;
+    border: white 2px solid;
+    border-radius: 5px;
+    padding: 5px;
+}
+.lien_menu{
+    text-decoration: none;
+    color: gray;
+    font-size: 1.5em;
+}
+#titre_bien{
+    font-size: 3em;
+    padding-top: 70px;
     text-align: center;
 }
-h3{
-    font-size: 25px;
-}
-p{
-    font-size: 12px;
-}
-main{
-    margin-left: auto;
-    margin-right: auto;
+#p_bienvenue{
+    font-size: 1.3em;
     text-align: center;
+}
+#location{
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    background-color: #c9c4be;
+    opacity: 0.7;
+    margin: 300px 20% 0 20%;
+    padding: 10px;
+}
+.datepicker{
+    height: 40px;
+    border-radius: 10px;
+}
+#valider{
+    background-color: green;
+    padding: 10px 2%;
+    color: white;
+}
+#voiture{
+    margin: 10px 15%;
+}
+#dropdown{
+    margin-top: -45px;
+    float: right;
+}
+h2{
+    width: 150px;
+}
+#voiture_1{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px gray solid;
+}
+#carousel1{
+    width: 350px;
+    height: 250px;
+}
+#description_1{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#reserver_1{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+}
+#voiture_2{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px gray solid;
+}
+#carousel2{
+    width: 350px;
+    height: 250px;
+}
+#description_2{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#reserver_2{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+}
+#voiture_3{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px gray solid;
+}
+#carousel3{
+    width: 350px;
+    height: 250px;
+}
+#description_3{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#reserver_3{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+}
+#voiture_4{
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px gray solid;
+}
+#carousel4{
+    width: 350px;
+    height: 250px;
+}
+#description_4{
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+#reserver_4{
+    color: white;
+    background-color: green;
+    border-radius: 10px;
+    width: 200px;
+    padding: 5px;
+}
+#footer{
+    display: flex;
+    margin: 40px 35%;
+    justify-content: space-around;
+    width: 30%;
+}
+#map{
+    width: 200px;
+    height: 120px;
 }
