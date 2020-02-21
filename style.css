@@ -1,0 +1,50 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+h1{
+    font-size: 40px;
+}
+h2{
+    font-size: 20px;
+}
+ul{
+    margin-top: 10px;
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+}
+a{
+    margin-left: 10px;
+    background-color: goldenrod;
+    text-decoration: none;
+    color: black;
+}
+header{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 10px;
+    text-align: center;
+    height: 100px;
+    line-height: 50px;
+    border-top: solid goldenrod 5px;
+    border-bottom: solid goldenrod 5px;
+}
+#blanc{
+    color: white;
+}
+footer{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+h3{
+    font-size: 25px;
+}
+p{
+    font-size: 12px;
+}
+main{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
